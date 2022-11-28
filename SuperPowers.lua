@@ -23,6 +23,7 @@ local UICorner_7 = Instance.new("UICorner")
 local R6R152 = Instance.new("TextLabel")
 local SpiderSense = Instance.new("ImageButton")
 local UICorner_8 = Instance.new("UICorner")
+local SpiderSense_2 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -59,7 +60,7 @@ R15.Parent = Frame
 R15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R15.BackgroundTransparency = 1.000
 R15.BorderSizePixel = 0
-R15.Position = UDim2.new(0.0315688699, 0, 0.243987575, 0)
+R15.Position = UDim2.new(0.0315688699, 0, 0.194930971, 0)
 R15.Size = UDim2.new(0, 48, 0, 49)
 R15.Font = Enum.Font.Highway
 R15.Text = "R15"
@@ -82,7 +83,7 @@ UICorner_2.Parent = SpiderFace
 R15WebShooters.Name = "R15 Web-Shooters"
 R15WebShooters.Parent = Frame
 R15WebShooters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-R15WebShooters.Position = UDim2.new(0.181122437, 0, 0.233962268, 0)
+R15WebShooters.Position = UDim2.new(0.187818855, 0, 0.218867928, 0)
 R15WebShooters.Size = UDim2.new(0, 56, 0, 51)
 R15WebShooters.Image = "rbxassetid://77234347"
 R15WebShooters.MouseButton1Down:connect(function()
@@ -226,11 +227,11 @@ Webshooters.Parent = Frame
 Webshooters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Webshooters.BackgroundTransparency = 1.000
 Webshooters.BorderSizePixel = 0
-Webshooters.Position = UDim2.new(0.0204081535, 0, -0.0339622647, 0)
+Webshooters.Position = UDim2.new(0.0315688699, 0, -0.0603773594, 0)
 Webshooters.Size = UDim2.new(0, 124, 0, 74)
 Webshooters.Font = Enum.Font.Highway
 Webshooters.Text = "Web-shooters"
-Webshooters.TextColor3 = Color3.fromRGB(239, 239, 239)
+Webshooters.TextColor3 = Color3.fromRGB(22, 22, 22)
 Webshooters.TextScaled = true
 Webshooters.TextSize = 11.000
 Webshooters.TextStrokeColor3 = Color3.fromRGB(89, 0, 1)
@@ -241,7 +242,7 @@ R6.Parent = Frame
 R6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R6.BackgroundTransparency = 1.000
 R6.BorderSizePixel = 0
-R6.Position = UDim2.new(0.0315688699, 0, 0.553421497, 0)
+R6.Position = UDim2.new(0.0315688699, 0, 0.477949798, 0)
 R6.Size = UDim2.new(0, 48, 0, 49)
 R6.Font = Enum.Font.Highway
 R6.Text = "R6"
@@ -254,7 +255,7 @@ R6.TextWrapped = true
 R6WebShooters.Name = "R6 Web-Shooters"
 R6WebShooters.Parent = Frame
 R6WebShooters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-R6WebShooters.Position = UDim2.new(0.183354497, 0, 0.520754695, 0)
+R6WebShooters.Position = UDim2.new(0.19005093, 0, 0.475471675, 0)
 R6WebShooters.Size = UDim2.new(0, 56, 0, 51)
 R6WebShooters.Image = "rbxassetid://8518025961"
 R6WebShooters.MouseButton1Down:connect(function()
@@ -920,11 +921,11 @@ Stickness.Parent = Frame
 Stickness.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Stickness.BackgroundTransparency = 1.000
 Stickness.BorderSizePixel = 0
-Stickness.Position = UDim2.new(0.654336691, 0, 0.0566037744, 0)
+Stickness.Position = UDim2.new(0.654336691, 0, 0.0301886797, 0)
 Stickness.Size = UDim2.new(0, 124, 0, 25)
 Stickness.Font = Enum.Font.Highway
 Stickness.Text = "Stickness"
-Stickness.TextColor3 = Color3.fromRGB(239, 239, 239)
+Stickness.TextColor3 = Color3.fromRGB(22, 22, 22)
 Stickness.TextScaled = true
 Stickness.TextSize = 11.000
 Stickness.TextStrokeColor3 = Color3.fromRGB(89, 0, 1)
@@ -935,7 +936,7 @@ R6R15.Parent = Frame
 R6R15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R6R15.BackgroundTransparency = 1.000
 R6R15.BorderSizePixel = 0
-R6R15.Position = UDim2.new(0.676658094, 0, 0.233962238, 0)
+R6R15.Position = UDim2.new(0.654336691, 0, 0.150943369, 0)
 R6R15.Size = UDim2.new(0, 58, 0, 49)
 R6R15.Font = Enum.Font.Highway
 R6R15.Text = "R6    R15"
@@ -948,11 +949,11 @@ R6R15.TextWrapped = true
 Stickiness.Name = "Stickiness"
 Stickiness.Parent = Frame
 Stickiness.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Stickiness.Position = UDim2.new(0.841517866, 0, 0.233962238, 0)
+Stickiness.Position = UDim2.new(0.808035731, 0, 0.147169784, 0)
 Stickiness.Size = UDim2.new(0, 56, 0, 51)
 Stickiness.Image = "http://www.roblox.com/asset/?id=31962637"
 Stickiness.MouseButton1Down:connect(function()
-   --[[
+--[[
 local _p = game:WaitForChild("Players")
 local _plr = _p.ChildAdded:Wait()
 if _plr == _p.LocalPlayer then
@@ -12516,7 +12517,7 @@ R6R152.Parent = Frame
 R6R152.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 R6R152.BackgroundTransparency = 1.000
 R6R152.BorderSizePixel = 0
-R6R152.Position = UDim2.new(0.676658094, 0, 0.520754695, 0)
+R6R152.Position = UDim2.new(0.654336691, 0, 0.516981125, 0)
 R6R152.Size = UDim2.new(0, 58, 0, 49)
 R6R152.Font = Enum.Font.Highway
 R6R152.Text = "R6    R15"
@@ -12529,7 +12530,7 @@ R6R152.TextWrapped = true
 SpiderSense.Name = "Spider-Sense"
 SpiderSense.Parent = Frame
 SpiderSense.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-SpiderSense.Position = UDim2.new(0.841517866, 0, 0.516981125, 0)
+SpiderSense.Position = UDim2.new(0.808035731, 0, 0.516981125, 0)
 SpiderSense.Size = UDim2.new(0, 56, 0, 51)
 SpiderSense.Image = "http://www.roblox.com/asset/?id=1347105445"
 SpiderSense.MouseButton1Down:connect(function()
@@ -13672,8 +13673,25 @@ SpiderSense.MouseButton1Down:connect(function()
 	end
 end)
 
+
 UICorner_8.CornerRadius = UDim.new(0.200000003, 1)
 UICorner_8.Parent = SpiderSense
+
+SpiderSense_2.Name = "Spider-Sense"
+SpiderSense_2.Parent = Frame
+SpiderSense_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpiderSense_2.BackgroundTransparency = 1.000
+SpiderSense_2.BorderSizePixel = 0
+SpiderSense_2.Position = UDim2.new(0.672193825, 0, 0.381132066, 0)
+SpiderSense_2.Size = UDim2.new(0, 124, 0, 25)
+SpiderSense_2.Font = Enum.Font.Highway
+SpiderSense_2.Text = "Spider-Sense"
+SpiderSense_2.TextColor3 = Color3.fromRGB(22, 22, 22)
+SpiderSense_2.TextScaled = true
+SpiderSense_2.TextSize = 11.000
+SpiderSense_2.TextStrokeColor3 = Color3.fromRGB(89, 0, 1)
+SpiderSense_2.TextWrapped = true
+
 
 
 
@@ -13718,4 +13736,3 @@ function dragify(Frame)
 end
 
 dragify(Frame)
-
